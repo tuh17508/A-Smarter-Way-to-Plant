@@ -6,6 +6,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+    
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A Smarter Way to Plant"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textFont="@font/lobster_italic"
+        android:textColor="@color/black"
+        android:layout_alignParentTop="true" />
 
     <!-- Textview to show light sensor reading -->
     <TextView
@@ -16,5 +27,18 @@
         android:textSize="20sp"
         android:textColor="@color/black"
         android:layout_centerInParent="true" />
+    
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_text"
+        android:layout_alignStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginLeft="141dp"
+        android:layout_marginBottom="90dp"
+        app:srcCompat="@drawable/plant_clipart" />
 
 </RelativeLayout>
