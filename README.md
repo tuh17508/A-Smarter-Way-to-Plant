@@ -2,7 +2,4 @@
 
 Group Members: Jess Classen, Lauren Page
 
-Description: This project is about a device that would detect when the moisture in a plant has dried up, using a soil moisture sensor, and set off an alarm 
-that would beep when it is time to water it.  This device could also send the alarm to your smartphone.  This device also trains a camera on your plants so you can 
-see them even when you are away.  It can show you when plants are starting to wilt if they are under watered or when you should move them inside or outside based on 
-temperature changes.
+Description: This project is about an application that would utilize a light sensor to alert the user if their plant needed to be watered more or less based on the brightness of a light on the plant. It would sense when it needed to be watered more or less and send alerts to their phone in the app.
