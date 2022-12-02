@@ -5,35 +5,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-    
+    tools:context=".MainActivity"
+    android:background="@color/teal" >
+
+    <!-- Textview to show light sensor reading -->
+
     <TextView
         android:id="@+id/tv_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="A Smarter Way to Plant"
-        android:layout_centerHorizontal="true"
-        android:textSize="20sp"
-        android:textFont="@font/lobster_italic"
         android:textColor="@color/black"
-        android:layout_alignParentTop="true" />
+        android:textSize="20sp"
+        android:layout_above="@+id/imageView"
+        android:layout_centerHorizontal="true" />
 
-    <!-- Textview to show light sensor reading -->
     <TextView
-        android:id="@+id/tv_text"
+        android:id="@+id/tv_text2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Light Sensor"
         android:textSize="20sp"
         android:textColor="@color/black"
         android:layout_centerInParent="true" />
-    
+    <TextView
+        android:id="@+id/tv_text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temperature Sensor"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="47sp"
+        android:layout_below="@+id/tv_text2" />
+
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/tv_text"
-        android:layout_alignStart="true"
+        android:layout_above="@+id/tv_text2"
+
         android:layout_alignParentLeft="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="144dp"
